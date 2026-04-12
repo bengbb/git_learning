@@ -1,0 +1,12 @@
+设置用户信息
+git config --global user.name"  "
+git config --global user.emali"  "
+
+为常用指令配置别名
+1.在用户目录创建.bashrc文件（命令：touch ~/.bashrc）
+2.在.bashrc文件中输入
+#用于输出git提交日志
+alias git-log='git log --pretty=oneline --all --graph --abbrev-commit'
+#用于输出当前目录所有文件及基本信息
+alias ll='ls -al'
+3.source ~/.bashrc
