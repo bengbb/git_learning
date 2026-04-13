@@ -1,0 +1,10 @@
+小指令 git status//查看文件状态
+git log//查看提交日志
+git reset -hard commitID//版本回退 commitID用git log查看
+git reflog//输出之前所有的日志
+git claer//清除窗口内容
+
+
+
+工作区 -> 暂存区 git add    如 git add 文件名/ git add . //将所有传到缓冲区
+暂存区 -> 仓库   git commit      如 git commit -m "注释"
