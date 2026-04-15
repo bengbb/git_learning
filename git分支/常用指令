@@ -1,0 +1,9 @@
+git branch//查看有哪些分支
+git branch name//创建一个新分支
+*只能对当前分支进行修改
+git checkout name//改变当前分支
+git checkout -b name//创建分支并切换
+*切换之后，不在当前分支的文件会隐藏
+git merge name//合并分支
+git branch -d name//删除
+git branch -D name//强制删除
