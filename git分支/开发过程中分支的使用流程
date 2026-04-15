@@ -1,0 +1,6 @@
+master分支//主分支
+
+develop分支//开发分支 在develop上开发，最后merge到master上
+
+feature分支
+hotfix分支
