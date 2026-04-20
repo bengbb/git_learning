@@ -1,0 +1,5 @@
+GitHub、码云、GitLAb
+
+
+ssh-keygen -t rsa//生成ssh公钥
+cat ~/.ssh/id_rsa.pub//获取公钥
