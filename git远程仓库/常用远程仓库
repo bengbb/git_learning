@@ -3,3 +3,8 @@ GitHub、码云、GitLAb
 
 ssh-keygen -t rsa//生成ssh公钥
 cat ~/.ssh/id_rsa.pub//获取公钥
+在github或gitee设置中绑定ssh公钥
+获取仓库的ssh地址
+git remote origin(默认) git@github.com:bengbb/git_learning.git//添加一个远程仓库
+git remote//检查远程仓库
+git push origin master//提交代码
