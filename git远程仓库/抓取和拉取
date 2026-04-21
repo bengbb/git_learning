@@ -1,0 +1,2 @@
+git fetch origin[remotename] [branchname]//把分支抓取到本地，但不会合并 
+git pull origin[remotename] [branchname]//拉取并合并
